@@ -1,0 +1,99 @@
+/* Reset de estilos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    border: none; /* Remove as bordas da página */
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-shadow: none; /* Remove a sombra da container */
+}
+
+.container-left {
+    flex: 1;
+    background: #4e81c9;
+    height: 100%;
+    border: none; /* Remove as bordas da container-left */
+}
+
+.container-right {
+    flex: 1;
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none; /* Remove as bordas da container-right */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: none; /* Remove as bordas do formulário */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.esqueceu-a-senha {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.esqueceu-a-senha p {
+    margin: 0;
+}
+
+.esqueceu-a-senha a {
+    color: #4e81c9;
+    text-decoration: none;
+}
+
+.esqueceu-a-senha a:hover {
+    text-decoration: underline;
+}
+
+.login-button {
+    background: #4e81c9;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.login-button:hover {
+    background: #3a6ea5;
+}
